@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+}
+
+.content {
+    display: flex;
+    align-items: baseline;
+}
+
+nav {
+    text-align: center;
+    margin-right: 10px;
+    flex-basis: 33.3333%;
+}
+
+main {
+    flex-basis: 66.6666%;
+}
+
+.sidebar li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.sidebar button {   
+    padding: 10px;
+}
+
+.noteList li {
+    border: 1px solid black;
+    list-style: none;
+    padding: 10px;
+}
+
+.noteListItems li {
+    border: 1px solid black;
+    list-style: none;
+    padding: 10px;
+}
+
+.notePage {
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+
